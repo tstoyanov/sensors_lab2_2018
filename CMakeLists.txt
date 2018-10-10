@@ -20,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   SetPID.srv
+  SetVel.srv
   SetDDParams.srv
   ResetOdom.srv
 )
